@@ -5,7 +5,7 @@ https://chemedata.github.io/dataServer
 
 The repository provides simple access to the files in the data folder.
 
-Example of file located at https://chemedata.github.io/dataServer/data/Et-16.jdx. 
+Example of file located at https://chemedata.github.io/dataServer/data/Et-16.jdx
 Get the files using:
 ```
 wget https://chemedata.github.io/dataServer/data/Et-16.jdx
