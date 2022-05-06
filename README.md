@@ -18,9 +18,40 @@ https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data
 After drag-drop of the structure and saving in diverse format stored in [./data/nmrium-data]{./data/nmrium-data}
 
 
-They can be opened with [defaultNMRium](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_dataSource.nmrium)
+They can be opened with [data source export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_dataSource.nmrium)
 
-They can be opened with [defaultNMRium](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
+They can be opened with [Raw data export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
 
+They can be opened with [defaultNMRium save](https://www.nmrium.org/nmrium#?nmredata=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW.nmredata)
 
-https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_default_save.nmrium
+# bind the spectrum and the molecule for NMRium
+
+1) create a toc json file:
+```
+[
+	{
+	  "file": "./data/nmrium-data/Et-16.json",
+      "title": "artemisin",
+	   "view": "",
+	   "selected": true  
+	}
+]
+```
+
+2) create the Et-16.json file:
+```
+[
+	{
+	  "file": "./data/nmrium-data/Et-16.json",
+      "title": "artemisin",
+	   "view": "",
+	   "selected": true  
+	}
+]
+```
+
+access using : 
+
+They can be opened with [defaultNMRium save](https://www.nmrium.org/nmrium#?json=https://chemedata.github.io/dataServer/data/nmrium-data/Et.json)
+
+more details in  https://docs.nmrium.org/for-developers/using-nmrium
