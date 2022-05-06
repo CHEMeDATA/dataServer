@@ -2,7 +2,6 @@ This repository provides simple access to the files locates in the ./data folder
 
 Example of file located at [https://chemedata.github.io/dataServer/data/Et-16.jdx](https://chemedata.github.io/dataServer/data/Et-16.jdx).
 
-
 Get the files using:
 ```
 wget https://chemedata.github.io/dataServer/data/Et-16.jdx
