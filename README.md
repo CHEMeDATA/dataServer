@@ -82,3 +82,7 @@ All this could be automatized...
 
 More details about the format in [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
 
+
+Other types of dataset https://cheminfo.github.io/nmr-dataset3 with generator of table of content.
+
+(Commands to generate data automatically)[./details.md]
