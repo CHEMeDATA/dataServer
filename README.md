@@ -54,9 +54,9 @@ They can be opened with :
 
 access using : 
 
-They can be opened with [remote link](https://www.nmrium.org/nmrium#?json=https://chemedata.github.io/dataServer/data/nmrium-data/Et.json)
+They can be opened with [remote link](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/Et.json)
 
-They can be opened with [local link](https://www.nmrium.org/nmrium#?json=./data/nmrium-data/Et.json)
+They can be opened with [local link](https://www.nmrium.org/nmrium#?toc=./data/nmrium-data/Et.json)
 
 more details in  [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
 
