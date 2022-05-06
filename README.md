@@ -28,12 +28,12 @@ They can be opened with :
 
 # Combine spectrum and molecule using json files
 
-1) create a toc json file:
+1) create a ./data/nmrium-data/index.json file:
 ```
 [
 	{
-	  "file": "./data/nmrium-data/Et-16.json",
-      "title": "artemisin",
+	  "file": "./Et-16.json",
+      "title": "1-ethoxybutane",
 	   "view": "",
 	   "selected": true  
 	}
@@ -42,19 +42,33 @@ They can be opened with :
 
 2) create the Et-16.json file:
 ```
-[
-	{
-	  "file": "./data/nmrium-data/Et-16.json",
-      "title": "artemisin",
-	   "view": "",
-	   "selected": true  
-	}
-]
+{
+	"spectra": [
+		{
+			"data": {},
+			"id": "0abwvynpah97",
+			"source": {
+				"original": [],
+				"jcamp": null,
+				"jcampURL": "../Et-16.jdx"
+			},
+			"display": {
+				"name": "1-ethoxybutane",
+				"color": "#C10020"
+			}
+		}
+	],
+	"molecules": [
+		{
+			"molfile": "\r\n  Mnova   05062209502D\r\n\r\n  7  6  0  0  0  0  0  0  0  0999 V2000\r\n  -13.6404  -93.9146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\r\n   -3.1005 -100.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\r\n    7.4407  -93.9146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\r\n   17.9807 -100.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\r\n   28.5207  -93.9146    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\r\n   39.0607 -100.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\r\n   49.6019  -93.9146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\r\n  5  6  1  0  0  0  0\r\n  4  5  1  0  0  0  0\r\n  3  4  1  0  0  0  0\r\n  2  3  1  0  0  0  0\r\n  1  2  1  0  0  0  0\r\n  6  7  1  0  0  0  0\r\nM  END\r\n"
+		}
+	]
+}
 ```
 
 access using : 
 
-They can be opened with [remote link](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/Et.json)
+They can be opened with [remote link](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/index.json)
 
 more details in  [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
 
