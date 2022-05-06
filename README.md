@@ -17,7 +17,10 @@ https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data
 
 After drag-drop of the structure and saving in diverse format stored in [./data/nmrium-data]{./data/nmrium-data}
 
-They can be opened with [defaultNMRium](https://www.nmrium.org/nmrium#?https://github.com/CHEMeDATA/dataServer/blob/main/data/nmrium-data/F6zMXRFW_default_save.nmrium)
+
+They can be opened with [defaultNMRium](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_dataSource.nmrium)
+
+They can be opened with [defaultNMRium](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
 
 
 https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_default_save.nmrium
