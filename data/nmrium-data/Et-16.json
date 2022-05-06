@@ -11,10 +11,5 @@
 				"color": "#C10020"
 			}
 		}
-	],
-	"molecules": [
-		{
-			"molfile": "../Et-16.mol"
-		}
 	]
 }
