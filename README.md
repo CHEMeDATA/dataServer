@@ -11,9 +11,9 @@ wget https://chemedata.github.io/dataServer/data/Et-16.jdx
 Open a spectrum [in NMRium](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx).
 ### Combine spectrum and molecule in NMRium
 
-After drag-drop of the structure and saving in diverse format stored in [./data/nmrium-data]{./data/nmrium-data}
+After drag-drop of the structure and save using "save as..." the .nmrium files were saved in [./data/nmrium-data]{./data/nmrium-data}
 
-They can be opened with :
+The nmrium files can be opened with :
 - [data source export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_dataSource.nmrium)
 
 - [Raw data export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
@@ -57,6 +57,7 @@ They can be opened with :
 	]
 }
 ```
+This could be automatized...
 
 3) Transform .mol and .sdf files into single-line string using:
 ```csh
@@ -66,7 +67,7 @@ and paste it as the "molfile" in the json above.
 
 Access : 
 
-[Open in NMRium with the table of content](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/index.json)
+[Open the table of content in NMRium](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/index.json)
 
 More details in  [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
 
