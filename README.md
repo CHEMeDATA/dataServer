@@ -22,8 +22,6 @@ They can be opened with [data source export](https://www.nmrium.org/nmrium#?nmri
 
 They can be opened with [Raw data export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
 
-They can be opened with [defaultNMRium save](https://www.nmrium.org/nmrium#?nmredata=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW.nmredata)
-
 # bind the spectrum and the molecule for NMRium
 
 1) create a toc json file:
@@ -56,4 +54,4 @@ They can be opened with [remote link](https://www.nmrium.org/nmrium#?json=https:
 
 They can be opened with [local link](https://www.nmrium.org/nmrium#?json=./data/nmrium-data/Et.json)
 
-more details in  https://docs.nmrium.org/for-developers/using-nmrium
+more details in  [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
