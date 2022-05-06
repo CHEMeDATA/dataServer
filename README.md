@@ -59,3 +59,6 @@ They can be opened with [remote link](https://www.nmrium.org/nmrium#?json=https:
 They can be opened with [local link](https://www.nmrium.org/nmrium#?json=./data/nmrium-data/Et.json)
 
 more details in  [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
+```csh
+cat ./data/Et-16.mol | tr -d '\r\n'
+```
