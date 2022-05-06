@@ -1,7 +1,4 @@
-## dataServer
-Mini file server
-
-The repository provides simple access to the files locates in the ./data folder.
+This repository provides simple access to the files locates in the ./data folder and shows how to make them accessible to NMRium
 
 Example of file located at [https://chemedata.github.io/dataServer/data/Et-16.jdx](https://chemedata.github.io/dataServer/data/Et-16.jdx)
 Get the files using:
