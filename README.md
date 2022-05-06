@@ -1,6 +1,8 @@
 This repository provides simple access to the files locates in the ./data folder and shows how to make them accessible to NMRium
 
-Example of file located at [https://chemedata.github.io/dataServer/data/Et-16.jdx](https://chemedata.github.io/dataServer/data/Et-16.jdx)
+Example of file located at [https://chemedata.github.io/dataServer/data/Et-16.jdx](https://chemedata.github.io/dataServer/data/Et-16.jdx).
+
+
 Get the files using:
 ```
 wget https://chemedata.github.io/dataServer/data/Et-16.jdx
@@ -8,19 +10,24 @@ wget https://chemedata.github.io/dataServer/data/Et-16.jdx
 
 ## Applications
 
-Open a spectrum [in NMRium](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx).
-### Combine spectrum and molecule in NMRium
+Paste the url of the file after "https://www.nmrium.org/nmrium#?" to open it with automatically in NMRium : [https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
 
-After drag-drop of the structure and save using "save as..." the .nmrium files were saved in [./data/nmrium-data]{./data/nmrium-data}
 
-The nmrium files can be opened with :
-- [data source export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_dataSource.nmrium)
+### Combine spectrum and molecule manually in NMRium
 
-- [Raw data export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
+After drag-drop of the spectrum and the structure, the .nmrium files were stored using "save as..." in [./data/nmrium-data]{./data/nmrium-data} using the twp options:
+
+- "Raw Data" includes the spectrum is self-consistent
+- "Data source" including a link to the spectrum instead of the spectrum itself, making the file smaller and more appropriate for data versioning.
+
+
+The nmrium files can be opened as :
+- [Raw Data](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_dataSource.nmrium)
+- [Data source](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
 
 ### Combine spectrum and molecule using json files
 
-1) Create a ./data/nmrium-data/index.json file:
+#### 1) Create a table of content in ./data/nmrium-data/index.json:
 ```
 [
 	{
@@ -31,8 +38,9 @@ The nmrium files can be opened with :
 	}
 ]
 ```
+where more spectra can be follow the braces. Only one should have `"selected": true`.
 
-2) create the Et-16.json file:
+#### 2) Create the Et-16.json file:
 ```
 {
 	"spectra": [
@@ -58,7 +66,7 @@ The nmrium files can be opened with :
 }
 ```
 
-3) Transform .mol and .sdf files into single-line string using:
+#### 3) Transform .mol and .sdf files into single-line string using:
 ```csh
 cat ./data/Et-16.mol |tr  '\r\n' '__' | sed s/"__"/'\\r\\n'/g
 ```
