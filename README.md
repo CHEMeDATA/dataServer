@@ -1,23 +1,18 @@
-# dataServer
+## dataServer
 Mini file server
 
-https://chemedata.github.io/dataServer
+The repository provides simple access to the files locates in the ./data folder.
 
-The repository provides simple access to the files in the data folder.
-
-Example of file located at https://chemedata.github.io/dataServer/data/Et-16.jdx
+Example of file located at [https://chemedata.github.io/dataServer/data/Et-16.jdx](https://chemedata.github.io/dataServer/data/Et-16.jdx)
 Get the files using:
 ```
 wget https://chemedata.github.io/dataServer/data/Et-16.jdx
-wget https://chemedata.github.io/dataServer/data/Et-16.mol
 ```
 
-# Applications
+## Applications
 
-Give access to a file : [https://chemedata.github.io/dataServer/data/Et-16.jdx](jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
-
-Open it [in NMRium](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
-# Combine spectrum and molecule in NMRium
+Open a spectrum [in NMRium](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx).
+### Combine spectrum and molecule in NMRium
 
 After drag-drop of the structure and saving in diverse format stored in [./data/nmrium-data]{./data/nmrium-data}
 
@@ -26,7 +21,7 @@ They can be opened with :
 
 - [Raw data export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
 
-# Combine spectrum and molecule using json files
+### Combine spectrum and molecule using json files
 
 1) create a ./data/nmrium-data/index.json file:
 ```
