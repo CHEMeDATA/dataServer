@@ -77,6 +77,7 @@ Paste the output as the "molfile" value in the relevant .json file.
 [Open the table of content in NMRium](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/index.json)
 
 All this could be automatized...
+
 ### More information
 
 More details about the format in [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
