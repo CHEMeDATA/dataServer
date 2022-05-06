@@ -65,13 +65,15 @@ where more spectra can be follow the braces. Only one should have `"selected": t
 	]
 }
 ```
+#### 3) Generate the molfile string
 
-#### 3) Transform .mol and .sdf files into single-line string using:
+In a shell, transform .mol and .sdf files into single-line strings with :
 ```csh
 cat ./data/Et-16.mol |tr  '\r\n' '__' | sed s/"__"/'\\r\\n'/g
 ```
-and paste it as the "molfile" in the json above.
+Paste the output as the "molfile" value in the relevant .json file.
 
+#### 3) Open the dataset 
 
 [Open the table of content in NMRium](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/index.json)
 
