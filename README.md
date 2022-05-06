@@ -1,9 +1,12 @@
 # dataServer
 Mini file server
 
+https://chemedata.github.io/dataServer
+
 The repository provides simple access to the files in the data folder.
 
-Example of file located at https://chemedata.github.io/dataServer/data/Et-16.jdx:
+Example of file located at https://chemedata.github.io/dataServer/data/Et-16.jdx. 
+Get the files using:
 ```
 wget https://chemedata.github.io/dataServer/data/Et-16.jdx
 wget https://chemedata.github.io/dataServer/data/Et-16.mol
@@ -11,18 +14,20 @@ wget https://chemedata.github.io/dataServer/data/Et-16.mol
 
 # Applications
 
-Give access to files [https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
+Give access to a file : [https://chemedata.github.io/dataServer/data/Et-16.jdx](jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
 
-https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx
+Open it [in NMRium](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
+
 
 After drag-drop of the structure and saving in diverse format stored in [./data/nmrium-data]{./data/nmrium-data}
 
 
-They can be opened with [data source export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_dataSource.nmrium)
+They can be opened with :
+- [data source export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_dataSource.nmrium)
 
-They can be opened with [Raw data export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
+- [Raw data export](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
 
-# bind the spectrum and the molecule for NMRium
+# Bind the spectrum and the molecule for NMRium
 
 1) create a toc json file:
 ```
