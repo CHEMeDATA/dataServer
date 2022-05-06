@@ -4,7 +4,9 @@
 			"data": {},
 			"id": "0abwvynpah97",
 			"source": {
-				"jcampURL": "./Et-16.jdx"
+				"original": [],
+				"jcamp": null,
+				"jcampURL": "../Et-16.jdx"
 			},
 			"display": {
 				"name": "1-ethoxybutane",
