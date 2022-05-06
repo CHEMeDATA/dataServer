@@ -4,5 +4,10 @@
       "title": "artemisin",
 	   "view": "",
 	   "selected": true  
+	},
+	{
+	  "file": "./data/nmrium-data/Et-16.json",
+      "title": "artemisin bis",
+	   "view": ""
 	}
 ]
