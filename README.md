@@ -57,7 +57,6 @@ The nmrium files can be opened with :
 	]
 }
 ```
-This could be automatized...
 
 3) Transform .mol and .sdf files into single-line string using:
 ```csh
@@ -65,9 +64,11 @@ cat ./data/Et-16.mol |tr  '\r\n' '__' | sed s/"__"/'\\r\\n'/g
 ```
 and paste it as the "molfile" in the json above.
 
-Access : 
 
 [Open the table of content in NMRium](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/index.json)
 
-More details in  [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
+All this could be automatized...
+### More information
+
+More details about the format in [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
 
