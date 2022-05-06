@@ -11,7 +11,7 @@ wget https://chemedata.github.io/dataServer/data/Et-16.mol
 
 # Applications
 
-Give access to NMRium files:
+Give access to files [https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
 
 https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx
 
