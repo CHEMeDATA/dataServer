@@ -23,7 +23,7 @@ They can be opened with :
 
 ### Combine spectrum and molecule using json files
 
-1) create a ./data/nmrium-data/index.json file:
+1) Create a ./data/nmrium-data/index.json file:
 ```
 [
 	{
@@ -61,13 +61,15 @@ They can be opened with :
 }
 ```
 
-access using : 
-
-They can be opened with [remote link](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/index.json)
-
-more details in  [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
-
-Transform .mol and .sdf files into molecule for .json files using:
+3) Transform .mol and .sdf files into single-line string using:
 ```csh
 cat ./data/Et-16.mol |tr  '\r\n' '__' | sed s/"__"/'\\r\\n'/g
 ```
+and paste it as the "molfile" in the json above.
+
+Access : 
+
+[Open in NMRium with the table of content](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/index.json)
+
+More details in  [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
+
