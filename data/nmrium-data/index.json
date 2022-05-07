@@ -7,12 +7,12 @@
 	},
 	{
 	  "file": "./27_benzaldehyde.json",
-      "title": "Project 27 Benzaldehyde",
+      "title": "Project 27 Produit de départ",
 	   "view": ""
 	},
 	{
 	  "file": "./27_cinnamique.json",
-      "title": "Project 27 Ac. Cinnamique",
+      "title": "Project 27 Produit final",
 	   "view": ""
 	}
 ]
