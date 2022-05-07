@@ -1,20 +1,18 @@
 [
 	{
 	  "file": "./Et-16.json",
-      "title": "Project 17",
+      "title": "Project 17 1-ethoxybutane",
 	   "view": "",
 	   "selected": true  
 	},
 	{
 	  "file": "./27_benzaldehyde.json",
       "title": "Project 27 Benzaldehyde",
-	   "view": "",
-	   "selected": true  
+	   "view": ""
 	},
 	{
 	  "file": "./27_cinnamique.json",
       "title": "Project 27 Ac. Cinnamique",
-	   "view": "",
-	   "selected": true  
+	   "view": ""
 	}
 ]
