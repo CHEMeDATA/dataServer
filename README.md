@@ -21,8 +21,8 @@ After drag-drop of the spectrum and the structure, the .nmrium files were stored
 
 
 The nmrium files can be opened as :
-- [Raw Data](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_dataSource.nmrium)
-- [Data source](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
+- [Data source](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFW_dataSource.nmrium)
+- [Raw Data](https://www.nmrium.org/nmrium#?nmrium=https://chemedata.github.io/dataServer/data/nmrium-data/F6zMXRFWRaw_Data.nmrium)
 
 ### Combine spectrum and molecule using json files
 

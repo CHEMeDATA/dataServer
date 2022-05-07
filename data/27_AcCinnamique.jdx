@@ -1,0 +1,67 @@
+##TITLE=	 #
+##JCAMP-DX=	6.0	$$ MestReNova 14.2.0-26256
+##DATA TYPE=	LINK
+##BLOCK_ID=	1
+##BLOCKS=	1    
+##ORIGIN=	Mestrelab Research S.L.
+##OWNER=	jeannerat
+##$MNOVA/LINK_BLOCK_TYPE=	ITEM	$$ Molecule
+##$MNOVA/ITEM/POLYGON=	(XY..XY)
+5513,6241.66
+5833.53,6241.66
+5833.53,6883.65
+5513,6883.65
+5513,6241.66
+##$MNOVA/ITEM/Z=	1
+##$MNOVA/ITEM/ANGLE=	0
+##TITLE=	
+##JCAMP-CS=	3.7	$$ MestReNova 14.2.0-26256
+##ORIGIN=	Mestrelab Research S.L.
+##OWNER=	jeannerat
+##BLOCK_ID=	2
+##NAMES=	
+##ATOMLIST=	
+$$ AN	AS	NH
+	1	C	1
+	2	C	 
+	3	C	1
+	4	C	1
+	5	C	1
+	6	C	1
+	7	C	1
+	8	C	1
+	9	C	 
+	10	O	 
+	11	O	 
+	12	H	 
+##BONDLIST=	
+$$ AN1	AN2	BT
+	1	2	D
+	2	3	S
+	3	4	D
+	4	5	S
+	5	6	D
+	1	6	S
+	2	7	S
+	7	8	D
+	8	9	S
+	9	10	D
+	9	11	S
+	11	12	S
+##MAXRASTER=	32768
+##XY_RASTER=	
+$$ AN	X	Y	Z
+	1	-21	-30999	0
+	2	318	-31195	0
+	3	659	-30999	0
+	4	659	-30605	0
+	5	318	-30409	0
+	6	-21	-30605	0
+	7	318	-31588	0
+	8	659	-31785	0
+	9	659	-32178	0
+	10	318	-32374	0
+	11	999	-32374	0
+	12	999	-32768	0
+##END=	
+##END=	

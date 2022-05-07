@@ -4,5 +4,17 @@
       "title": "Project 17",
 	   "view": "",
 	   "selected": true  
+	},
+	{
+	  "file": "./27_benzaldehyde.json",
+      "title": "Project 27 Benzaldehyde",
+	   "view": "",
+	   "selected": true  
+	},
+	{
+	  "file": "./27_cinnamique.json",
+      "title": "Project 27 Ac. Cinnamique",
+	   "view": "",
+	   "selected": true  
 	}
 ]
