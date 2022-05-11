@@ -9,12 +9,12 @@ wget https://chemedata.github.io/dataServer/data/Et-16.jdx
 
 ## Applications
 
-Paste the url of the file after "https://www.nmrium.org/nmrium#?" to open it with automatically in NMRium : [https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
+Paste the url of the file after "https://www.nmrium.org/nmrium#?" to open it automatically in NMRium : [https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
 
 
 ### Combine spectrum and molecule manually in NMRium
 
-After drag-drop of the spectrum and the structure, the .nmrium files were stored using "save as..." in [./data/nmrium-data]{./data/nmrium-data} using the twp options:
+After drag-drop of the spectrum and the structure, the .nmrium files were stored using "save as..." in [./data/nmrium-data]{./data/nmrium-data} using the two options:
 
 - "Raw Data" includes the spectrum is self-consistent
 - "Data source" including a link to the spectrum instead of the spectrum itself, making the file smaller and more appropriate for data versioning.
@@ -26,7 +26,10 @@ The nmrium files can be opened as :
 
 ### Combine spectrum and molecule using json files
 
+This methods allows NMRium to display a list of spectra by pointing to a table-of-content file.
 #### 1) Create a table of content in ./data/nmrium-data/index.json:
+
+Structure of the file. A complete example can be found there: [./data/nmrium-data/index.json](./data/nmrium-data/index.json).
 ```
 [
 	{
@@ -37,9 +40,12 @@ The nmrium files can be opened as :
 	}
 ]
 ```
-where more spectra can be follow the braces. Only one should have `"selected": true`.
+
+Only one should have a field `"selected": true` - it will be one that opens by default when landing on the [table-of-content page](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/index.json).
 
 #### 2) Create the Et-16.json file:
+
+For each spectrum, create the json including a pointer to the spectrum, and the content of the molecular structure file (.mol / .sdf).
 ```
 {
 	"spectra": [
@@ -68,21 +74,21 @@ where more spectra can be follow the braces. Only one should have `"selected": t
 
 In a shell, transform .mol and .sdf files into single-line strings with :
 ```csh
-cat ./data/Et-16.mol |tr  '\r\n' '__' | sed s/"__"/'\\r\\n'/g
+cat ./data/Et-16.mol | tr  '\r\n' '__' | sed s/"__"/'\\r\\n'/g
 ```
-Paste the output as the "molfile" value in the relevant .json file.
+Paste the output as the "molfile" value in the .json files.
 
-#### 3) Open the dataset 
+### Automation
 
-[Open the table of content in NMRium](https://www.nmrium.org/nmrium#?toc=https://chemedata.github.io/dataServer/data/nmrium-data/index.json)
+The generation of mol/sdf files can be done by exporting data from chemical structure editors such as ChemDraw, or Mnova or chemistry software libraries such as oben babel, etc.
 
-All this could be automatized...
+The generation of .jdx files can be done by exporting spectra from NMR software such as Topspin, Mnova, or chemistry software libraries or on-line tools.
 
+The whole process could be automatized.
 ### More information
 
-More details about the format in [https://docs.nmrium.org/for-developers/using-nmrium]{https://docs.nmrium.org/for-developers/using-nmrium}
+More details about the format for [NMRium]{https://docs.nmrium.org/for-developers/using-nmrium}
 
-
-Other types of dataset https://cheminfo.github.io/nmr-dataset3 with generator of table of content.
+Other types of dataset: https://cheminfo.github.io/nmr-dataset3 with generator of table of content.
 
 (Commands to generate data automatically)[./details.md]
