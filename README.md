@@ -9,7 +9,7 @@ wget https://chemedata.github.io/dataServer/data/Et-16.jdx
 
 ## Applications
 
-Paste the url of the file after "https://www.nmrium.org/nmrium#?" to open it automatically in NMRium : [https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
+Paste the url of the file after "https://www.nmrium.org/nmrium#?" to open it automatically in NMRium. The full URL looks like this : [https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx](https://www.nmrium.org/nmrium#?jcamp=https://chemedata.github.io/dataServer/data/Et-16.jdx)
 
 
 ### Combine spectrum and molecule manually in NMRium
