@@ -1,3 +1,7 @@
+---
+title: Details
+permalink: /details/
+---
 ```csh
 
 cp ~/Dropbox/Unige_2022/divers/Et-16.mol ./data/
