@@ -91,8 +91,8 @@ The generation of .jdx files can be done by exporting spectra from NMR software 
 The whole process could be automatized.
 ### More information
 
-More details about the format for [NMRium]{https://docs.nmrium.org/for-developers/using-nmrium}
+More details about the format for [NMRium](https://docs.nmrium.org/for-developers/using-nmrium)
 
 Other types of dataset: https://cheminfo.github.io/nmr-dataset3 with generator of table of content.
 
-(Commands to generate data automatically)[./details.md]
+[Commands to generate data automatically](./details.md)
