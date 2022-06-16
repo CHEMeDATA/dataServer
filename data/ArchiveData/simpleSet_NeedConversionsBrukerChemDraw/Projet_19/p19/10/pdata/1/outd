@@ -1,0 +1,15 @@
+##TITLE= Parameter file, XWIN-NMR		Version 3.6
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##ORIGIN= UXNMR, Bruker Analytische Messtechnik GmbH
+##OWNER= root
+$$ Tue Nov 27 10:31:18 2012 CET (UT+1h)  guest@nmrge400
+$$ /u/data/guest/nmr/et-19/10/pdata/1/outd
+##$CURPLOT= <hp2800A3>
+##$CURPRIN= <$hp2800A3>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1h.xwp_orig_bruno.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##$SURQMSG= 1
+##END=

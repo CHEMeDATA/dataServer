@@ -1,0 +1,41 @@
+
+Current Data Parameters
+NAME              et-19                
+EXPNO                10                
+PROCNO                1                
+
+F2 - Acquisition Parameters
+Date_          20121127                
+Time              10.30                
+INSTRUM          drx400                
+PROBHD   5 mm QNP 1H/13                
+PULPROG         zg30.dj                
+TD                65536                
+SOLVENT           CDCl3                
+NS                    7                
+DS                    2                
+SWH            7183.908 Hz             
+FIDRES         0.109618 Hz             
+AQ            4.5613556 sec            
+RG                228.1                
+DW               69.600 usec           
+DE                 6.00 usec           
+TE                300.0 K              
+D1           2.00000000 sec            
+MCREST       0.00000000 sec            
+MCWRK        0.01500000 sec            
+
+======== CHANNEL f1 ========
+NUC1                 1H                
+P1                 9.40 usec           
+PL1               -5.00 dB             
+SFO1        400.1324710 MHz            
+
+F2 - Processing parameters
+SI                32768                
+SF          400.1300000 MHz            
+WDW                  EM                
+SSB                   0                
+LB                 0.30 Hz             
+GB                    0                
+PC                 1.00                

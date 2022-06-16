@@ -1,0 +1,36 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ /opt/topspin3.2/data/etudiants/toto/ET-CB-16/10/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2017-12-13 10:50:26.763 +0100>,<nmr>,<CZC30384W2>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2017-12-13 10:49:54.716 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       A8 89 21 64 6E 6A C1 53 A9 20 3B 21 B3 46 20 3E
+       data hash MD5: 64K
+       7C 82 DF 4E 2F FD 80 69 A1 54 D8 F2 7C F7 75 CE>)
+(   2,<2017-12-13 10:50:27.693 +0100>,<nmr>,<CZC30384W2>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       ICON-NMR User ID: toto
+       data hash MD5: 64K
+       7C 82 DF 4E 2F FD 80 69 A1 54 D8 F2 7C F7 75 CE>)
+(   3,<2017-12-13 10:50:28.212 +0100>,<nmr>,<CZC30384W2>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       ef LB = 0.3 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       F8 59 E5 EC 98 F3 83 7F 7D B6 21 04 6C 01 06 A0>)
+(   4,<2017-12-13 10:50:28.505 +0100>,<nmr>,<CZC30384W2>,<proc1d>,<TOPSPIN 3.2>,
+      <apk 
+       data hash MD5: 64K
+       D4 39 C1 34 9D 60 A4 AD A1 8F AB 0B DF 46 53 55>)
+(   5,<2017-12-13 10:50:29.070 +0100>,<nmr>,<CZC30384W2>,<proc1d>,<TOPSPIN 3.2>,
+      <abs ABSG = 5 
+       data hash MD5: 64K
+       CE 67 4E 7C 55 31 E3 9D 0D E7 A0 CE FA 31 9F 07>)
+##END=
+
+$$ hash MD5
+$$ 4C B4 7F F0 65 55 8E 8E 7C 7F BB F3 80 8B BE 31

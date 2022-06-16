@@ -1,0 +1,10 @@
+##TITLE= Parameter file, XWIN-NMR		Version 2.5
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##ORIGIN= Bruker Analytik GmbH
+##OWNER= ep
+$$ Thu May  6 14:43:39 1999 MDT (UT+2h)  ep
+$$ /u/data/final/nmr/8202_093cgp/1/acqu1
+##$SW= inf
+##$SW_h= inf
+##END=

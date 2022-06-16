@@ -1,0 +1,16 @@
+##TITLE= Audit trail, XWIN-NMR		Version 3.6
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= guest
+$$ /u/data/guest/nmr/Et-KHJ-27/10/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, WHAT)
+(   1,<2012-11-27 10:39:17.15 +0100>,<guest>,<nmrge400>,
+      <created by zg, POWCHK disabled, PULCHK disabled
+       configuration hash MD5:
+       5C E7 51 E0 E1 AA 8B 6D 65 65 36 18 AE 6E F8 B8
+       data hash MD5: 64K
+       01 82 BB 3B ED B8 94 86 31 6C 42 06 EC 3F CC E7>)
+##END=
+
+$$ hash MD5
+$$ 71 E4 DA 10 46 00 F7 49 6D A8 77 8F B7 DD 0D D8
