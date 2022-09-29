@@ -1,0 +1,50 @@
+{
+  "ChemEquation_RInchi": "Insert-here-RInchi",
+  "ChemEquation_ChemDrawFile": "Insert-here-pointer-to_file",
+  "Reactants_Compound": [{ // see controled vocabulary for all "_Compound" fields
+      "ref_Inchi": "Insert-here-Inchi A",
+      "Compound_ChemDrawFile": "Insert-here-pointer-to_file",
+      "Compound_SDF_OR_MOL_File": "Insert-here-pointer-to_file",
+      "quantity_mg": 12.4,
+      "SourceProduct": {
+        "provider": "Fluka...",
+        "deliveredQuantity_g": 100.0
+      }
+    },
+    {
+      "ref_Inchi": "Insert-here-Inchi B",
+      "Compound_ChemDrawFile": "Insert-here-pointer-to_file",
+      "Compound_SDF_OR_MOL_File": "Insert-here-pointer-to_file",
+      "quantity_mg": 5.4,
+      "SourceProduct": {
+        "provider": "Fluka...",
+        "deliveredQuantity_g": 100.0
+      }
+    }
+  ],
+  "Products_Compound": [{
+    "ref_Inchi": "Insert-here-Inchi",
+    "Compound_ChemDrawFile": "Insert-here-pointer-to_file",
+    "Compound_SDF_OR_MOL_File": "Insert-here-pointer-to_file",
+    "quantity_mg": 1.4,
+    "SourceProduct": {
+      "provider": "Fluka...",
+      "deliveredQuantity_g": 100.0
+    }
+  }],
+  "Solvent_Compound": [{
+    "ref_Inchi": "Insert-here-Inchi",
+    "Compound_ChemDrawFile": "Insert-here-pointer-to_file",
+    "Compound_SDF_OR_MOL_File": "Insert-here-pointer-to_file",
+    "quantity_mg": 1.4,
+    "SourceProduct": {
+      "provider": "Fluka...",
+      "deliveredQuantity_g": 100.0
+    }
+  }],
+  "ReactionCatalists_Compound": [],
+  "reactionTemperature_C": 21.0,
+  "reactionPressure_Atm": 1.0,
+  "reactionDuration_min": 20.0,
+  "Sample_ID": "Here insert the sample id of the final crude product" // The sample ID would allow to locate it...
+}

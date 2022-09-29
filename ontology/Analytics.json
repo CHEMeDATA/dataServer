@@ -1,0 +1,68 @@
+{
+    "Sample_ID": "Here insert the sample id", // The sample ID would allow to locate it, know its origin, etc.
+    "Sample_Type": "solution", // alternative :solid, poudre, cristal, etc.
+    "Solvent_Compound": [{ // see controled vocabulary for all "_Compounds" fields
+        "ref_Inchi": "Insert-here-Inchi",
+        "Compound_ChemDrawFile": "Insert-here-pointer-to_file",
+        "Compound_SDF_OR_MOL_File": "Insert-here-pointer-to_file",
+        "quantity_mg": 1.4,
+        "SourceProduct": {
+            "provider": "Fluka...",
+            "deliveredQuantity_g": 100.0
+        }
+    }],
+    "Expected_Composition_Compound": [{
+        "ref_Inchi": "Insert-here-Inchi",
+        "Compound_ChemDrawFile": "Insert-here-pointer-to_file",
+        "Compound_SDF_OR_MOL_File": "Insert-here-pointer-to_file",
+        "quantity_mg": 1.4,
+        "SourceProduct": {
+            "provider": "Fluka...",
+            "deliveredQuantity_g": 100.0
+        }
+    }],
+    "Origin": {
+        "type": "Synthesis", // alternative: natural origin, syparation...
+        "Synthesis_ID": "ID of synthesis", // if type : Synthesis
+        "Synthesis_Location": "pointer to file or external link to synthesis data", // if type : Synthesis
+        "DateTime": "date/time of sample preparation"
+    },
+    "AnalyticalMethods": [
+        "NMR": {
+            "Experiments": [{
+                    "Isotope": "1H",
+                    "dimentions": 1,
+                    "experiment": "1D 1H", // controled vocabulary
+                    "DateTime": "date/time of sample preparation"
+                },
+                {
+                    "Isotope": "13C",
+                    "dimentions": 1,
+                    "experiment": "1D DEPT-135", // controled vocabulary
+                    "DateTime": "date/time of sample preparation"
+                }, ,
+                {
+                    "Isotope": "1H",
+                    "dimentions": 2,
+                    "experiment": "2D HSQC 1H-13C", // controled vocabulary
+                    "DateTime": "date/time of sample preparation"
+                }
+            ],
+            "extractedInformation": {
+                "assignment": {
+                    "Assigned_Components_Compound": {
+                        // see controled vocabulary for all "_Compounds" fields
+                    },
+                    "AssignmentDetails": {
+                        // could insert here the details of the assgnment - NMReDATA
+                    }
+                }
+            }
+        },
+        "MS": {
+            [
+                // ... to be filled
+            ]
+        }
+    ]
+}
